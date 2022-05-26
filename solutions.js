@@ -14,11 +14,11 @@ fiyatlar.filter((f) => f > 90).forEach((f) => console.log(f));
 
 // or
 
-fiyatlar.forEach((value) => value>90 ? console.log(value) : null);
+fiyatlar.forEach((value) => value > 90 ? console.log(value) : null);
 
 //ÖDEV3 fiyatlar dizisindeki fiyatı 110'dan küçük olan değerlere %10 artış yapın ve bu değerleri konsola tek tek bastırınız.
 
-fiyatlar.map((x) => x<110 ? console.log((x*1.1).toFixed(2)) : null);
+fiyatlar.map((x) => x < 110 ? console.log((x * 1.1).toFixed(2)) : null);
 
 // or
 
@@ -38,7 +38,7 @@ maaslar.filter((x) => x > 4000).map((y) => y * 1.25).forEach((z) => console.log(
 
 // forEach;
 
-let toplam = 0
+let toplam = 0;
 maaslar.forEach((x) => {
   toplam += x; 
 })
@@ -46,7 +46,7 @@ console.log(toplam);
 
 // reduce ile ;
 
-const toplam2 = maaslar.reduce((t,m) => t+m,0);
+const toplam2 = maaslar.reduce((t,m) => t + m, 0);
 console.log(toplam2);
 
 
