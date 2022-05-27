@@ -5,7 +5,7 @@ const fiyatlar = [100, 250, 50, 89];
 
 fiyatlar.forEach((value, index, fiyatlar) => {
   fiyatlar[index] = (value * 1.1).toFixed(2);
-})
+});
 console.log(fiyatlar);
 
 // ÖDEV2 fiyatlar dizisindeki fiyatı 90'dan büyük olan değerleri konsola tek tek bastırınız.
@@ -41,7 +41,7 @@ maaslar.filter((x) => x > 4000).map((y) => y * 1.25).forEach((z) => console.log(
 let toplam = 0;
 maaslar.forEach((x) => {
   toplam += x; 
-})
+});
 console.log(toplam);
 
 // reduce ile ;
